@@ -15,7 +15,7 @@
         </dependency>
     </dependencies>
     <build>
-        <sourceDirectory>src</sourceDirectory>
+        <sourceDirectory>/tmp/index.html</sourceDirectory>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -33,7 +33,7 @@
                                     <artifactId>TestMaven</artifactId>
                                     <version>0.0.1-SNAPSHOT</version>
                                     <type>[ packaging ]</type>
-                                    <outputDirectory>${project.build.directory}/lib</outputDirectory>
+                                    <outputDirectory>/var/www/html</outputDirectory>
                                 </artifactItem>
                             </artifactItems>
                             <!-- other configurations here -->
